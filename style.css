@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(10, 1, 19);
+}
+.container{
+    height: auto;
+    width: 600px;
+    background-color: white;
+    padding: 20px auto 30px;
+    margin: 90px auto 30px;
+    border-radius: 15px;
+}
+
+.container h1{
+    text-align: center;
+ padding: 20px;
+   margin-top: 20px;
+}
+
+
+input{
+    margin: 20px 10px;
+    border: 2px solid rgb(180, 9, 180);
+    font-size: 10px;
+   width: 400px;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px;
+ 
+
+}
+.btn{
+ 
+    background-color:rgb(180, 9, 180) ;
+    color: white;
+    font-size: 20px;
+ 
+    gap:- 0.1rem;
+    border-radius: 15px;
+    border: none;
+    padding: 20px 30px;
+    
+
+
+
+
+}
+
+.btn:hover{
+background-color: rgb(92, 13, 165);
+}
+ul li{
+    font-size: 1.1rem;
+   
+    list-style-type: none;
+    cursor: pointer;
+    padding: 10px 8px 10px 30px;
+ position: relative;
+ 
+}
+ul li::before{
+content: "☐";
+font-size: 25px;
+position: absolute;
+top: 5px;
+left: -1px;
+}
+#input-list{
+    padding: 0px 30px;
+}
+
+ ul li.checked{
+    color: rgb(153, 70, 231);
+    text-decoration: line-through;
+   
+}
+ul li.checked::before{
+ 
+    content: "☑ ";
+    color: rgb(153, 70, 231);
+    
+}
+ul li span{
+    position: absolute;
+    top: 1.8px;
+    right: 5px;
+    color: rgb(250, 165, 7);
+    font-size: 2rem;
+}
